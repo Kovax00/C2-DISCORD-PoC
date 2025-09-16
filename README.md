@@ -53,4 +53,4 @@ Codigo base subido intencionalmente para evitar el mal uso de este.
 
 ---
 ### Creditos (imagen)
-@0xbit
+https://github.com/0xbitx
