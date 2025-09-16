@@ -27,4 +27,11 @@ CONTRAS:
 * Menos control de infraestructura: no tienes acceso a bajo nivel como en un C2 propio (no puedes tunelar protocolos arbitrarios).
 * Menor sigilo en entornos corporativos: algunos proxies/firewalls bloquean Discord en redes empresariales.
 * Escalabilidad limitada: no es óptimo para campañas grandes o múltiples agentes, solo para labs/PoC.
+---
+# bot
+
+El bot actúa como un C2 sobre la API de Discord: autentica al operador, mantiene un canal de control para recibir órdenes y enviar resultados (mensajes y archivos), y ejecuta procesos locales para ejecutar comandos y exfiltrar salidas. Internamente incluye módulos de recolección (keylogging a fichero, capturas de pantalla, foto por webcam y grabación de audio en hilo), capacidades de lectura/descifrado de datos de navegadores para extraer credenciales y cookies, mecanismos de persistencia y elevación (entradas en registro y solicitud de permisos elevados), un motor de cifrado/descifrado de ficheros basado en ChaCha20+HMAC para acciones tipo ransomware, y rutinas para bloquear la UI (reproducción en fullscreen, bloqueo de input e inyección de texto). Además gestiona empaquetado/exfiltración de archivos y limpieza/gestión de mensajes en el canal.
+<img width="725" height="141" alt="image" src="https://github.com/user-attachments/assets/e8f23296-0174-49df-a354-4123cbbfd5ca" />
+<img width="735" height="167" alt="image" src="https://github.com/user-attachments/assets/acd60398-09cd-4d52-a0f6-d181b7b06ee2" />
+
 
