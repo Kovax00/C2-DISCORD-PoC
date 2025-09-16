@@ -1,4 +1,7 @@
 # C2-DISCORD-PoC
+
+<img width="1839" height="987" alt="image" src="https://github.com/user-attachments/assets/8ded959e-cbb7-4c97-96e4-cd63bd3ceb8a" />
+
 Creación del c2 (solo windows) mediante un servidor de discord el cliente cuenta con sus módulos integrados tales como:
 
 * COMANDOS en cmd
