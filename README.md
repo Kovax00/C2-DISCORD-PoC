@@ -52,3 +52,5 @@ Codigo base subido intencionalmente para evitar el mal uso de este.
 <img width="1764" height="771" alt="image" src="https://github.com/user-attachments/assets/77b4a6bf-b170-4b73-ac2b-e17122684903" />
 
 ---
+### Creditos (imagen)
+@0xbit
